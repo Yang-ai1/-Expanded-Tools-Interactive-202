@@ -1,0 +1,103 @@
+.first1{
+    display: inline-block;
+    width:16vw;
+    height: 6vw;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 2vw 0vw 0px 10vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    transform: rotate(45deg);
+    background-image: radial-gradient(tan 30%,transparent 0),
+                      radial-gradient(tan 30%,transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+}
+
+.first1:hover{
+    display: inline-block;
+    width:16vw;
+    height: 6vw;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 2vw 0vw 0px 10vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    transform: rotate(45deg);
+    background-image: radial-gradient(tan 30%,transparent 0),
+                      radial-gradient(tan 30%,transparent 0);
+    background-size: 10px 10px;
+    background-position: 0 0,15px 15px;
+}
+
+.first{
+    display: inline-block;
+    width:16vw;
+    height: 6vw;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 2vw 0vw 0px 1vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    transform: rotate(45deg);
+    background-image: radial-gradient(tan 30%,transparent 0),
+                      radial-gradient(tan 30%,transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+
+}
+.first:hover{
+    display: inline-block;
+    width:16vw;
+    height: 6vw;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 2vw 0vw 0px 10vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    transform: rotate(45deg);
+    background-image: radial-gradient(tan 30%,transparent 0),
+                      radial-gradient(tan 30%,transparent 0);
+    background-size: 10px 10px;
+    background-position: 0 0,15px 15px;
+}
+
+
+.second{
+    display: inline-block;
+    width:16vw;
+    height: 6vw;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 2vw 0vw 0px 1vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    transform: rotate(-45deg);
+    background-image: radial-gradient(tan 30%,transparent 0),
+                      radial-gradient(tan 30%,transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+
+}
+
+.second:hover{
+    display: inline-block;
+    width:16vw;
+    height: 6vw;
+    border-radius: 3vw;
+    padding: 0px;
+    margin: 2vw 0vw 0px 10vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    transform: rotate(45deg);
+    background-image: radial-gradient(tan 30%,transparent 0),
+                      radial-gradient(tan 30%,transparent 0);
+    background-size: 10px 10px;
+    background-position: 0 0,15px 15px;
+}
