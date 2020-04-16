@@ -1,0 +1,135 @@
+
+
+.parent{
+  position: absolute;
+  top: 10px;
+  left:0px;
+}
+
+.cone1 {
+    position:absolute;
+      width: 0;
+      height: 0;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 100px solid red;
+      border-radius: 50%;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.cone2:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 100px solid red;
+      border-radius: 50%;
+      opacity: 0.5;
+      grid-area: overlay;
+    }
+
+.cone1:hover{
+ transform: scale(2, 3);
+  mix-blend-mode: overlay;
+}
+
+
+ .s1 {
+      width: 200px;
+      height: 100px;
+      background: #800080;
+      border-radius: 100px / 50px;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+.cone2 {
+    position::absolute;
+      width: 0;
+      height: 0;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 100px solid red;
+      border-radius: 50%;
+      opacity: 0.5;
+      position: relative;
+      top: -50px;
+     z-index: 2;
+
+    }
+
+.cone2:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-top: 100px solid red;
+      border-radius: 50%;
+      opacity: 0.5;
+      grid-area: overlap;
+    }
+
+  .cone2:hover{
+ transform: scale(3, 2);
+  mix-blend-mode: hue;
+}
+
+ .s2 {
+     width: 200px;
+      height: 100px;
+      background: #000080;
+      border-radius: 100px / 50px;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 1
+    }
+
+
+.parent2{
+    position: absolute;
+    top: 10px;
+    left:100px;
+}
+.parent3{
+    position: absolute;
+    top: 10px;
+    left:200px;
+}
+.parent4{
+    position: absolute;
+    top: 10px;
+    left:300px;
+}
+.parent5{
+    position: absolute;
+    top: 10px;
+    left:400px;
+}
+.parent6{
+    position: absolute;
+    top: 10px;
+    left:500px;
+}
+.parent7{
+    position: absolute;
+    top: 10px;
+    left:600px;
+}
+.parent8{
+    position: absolute;
+    top: 10px;
+    left:700px;
+}

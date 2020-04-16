@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right bottom,#FFFFFF,#0000FF);
+}
+
+
+.parent1{
+		position: absolute;
+    top: 90px;
+	left:110px;
+}
+
+.moon1{
+	  width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #CD5C5C;
+	}
+
+.moon1:hover{
+  transform: rotate(90deg);
+}
+
+.parent2{
+		position: absolute;
+	top: 90px;
+	left:220px;
+}
+
+.moon2{
+	  width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #F08080;
+	}
+
+.moon2:hover{
+  transform: rotate(45deg);
+}
+
+.parent3{
+		position: absolute;
+	top: 90px;
+	left:330px;
+}
+
+.moon3{
+	  width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #FA8072;
+	}
+
+.moon3:hover{
+  transform: rotate(180deg);
+}
+
+.parent4{
+		position: absolute;
+	top: 90px;
+	left:440px;
+}
+
+.moon4{
+	  width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #E9967A;
+	}
+
+.moon4:hover{
+  transform: rotate(270deg);
+}
+
+.parent5{
+		position: absolute;
+	top: 90px;
+	left:550px;
+}
+
+.moon5{
+	  width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #FFA07A;
+	}
+
+.moon5:hover{
+  transform: rotate(350deg);
+}
+
